@@ -3,11 +3,7 @@ var debug = require('debug')('backend:server');
 var http = require('http');
 var mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://shubhams3396:EmEdbjeZG3qKIcaR@cluster0.rbmbz41.mongodb.net/RapidRide?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
-    console.log("Connected with MongoDB")
-}).catch((err) => {
-    console.log(err)
-})
+
 
 //Get port from environment and store in Express
 
