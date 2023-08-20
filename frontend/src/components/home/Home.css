@@ -1,0 +1,44 @@
+.hero_section {
+    position: relative;
+    max-width: 100%;
+    width: 1520px;
+    padding-bottom: 50%;
+    background-image: url('../../assets/Images/aston_martin.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_section .home_text_1 {
+    position: absolute;
+    background-color: transparent;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 75px;
+    font-weight: 400;
+    font-family: Inter;
+    text-align: end;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    cursor: default;
+}
+
+.hero_section .home_text_2 {
+    position: absolute;
+    background-color: transparent;
+    top: 90%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    margin-top: 15%;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Inter;
+    text-align: start;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+}
