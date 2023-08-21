@@ -8,12 +8,7 @@ const cloudinary = require("cloudinary");
 var app = express();
 
 // Multer
-cloudinary.v2.config({
-  cloud_name: 'dhczqvteu',
-  api_key: '521533795849525',
-  api_secret: 'En38tJeVpHbK9sfTS6pPETLtQ-o',
-  secure: true,
-});
+
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(logger('dev'));
